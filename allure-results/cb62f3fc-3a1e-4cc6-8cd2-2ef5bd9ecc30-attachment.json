@@ -1,0 +1,4 @@
+{
+  "variables": "{\"name\": \"Mohamed Hammad\",\"rocket\": \"Hammad\u0027s rocket\"}",
+  "query": "mutation  ($name: String,$rocket:String) {\r\n  insert_users(objects: {name: $name, rocket: $rocket, twitter: \"test\"}) {\r\n    affected_rows\r\n    returning {\r\n      id\r\n      name\r\n      rocket\r\n      timestamp\r\n      twitter\r\n    }\r\n  }\r\n}"
+}

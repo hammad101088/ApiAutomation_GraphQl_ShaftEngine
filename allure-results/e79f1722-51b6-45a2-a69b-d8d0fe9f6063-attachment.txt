@@ -1,0 +1,14 @@
+
+################################################################################################################################################
+Starting Execution:	[2 out of 2] test cases in the current suite
+Test Method:		[spacexGraphql.shaftEngineTest.SpacexApiTest.testPatLaunches_checkRocketName_shouldBeFalcon9]
+################################################################################################################################################
+[ReportManager] Response status code: [200], status line: [HTTP/1.1 200 OK] @08-05-2021 23:39:50.0087 PM
+[ReportManager] Evaluating the actual response status code against the expected one...... @08-05-2021 23:39:50.0088 PM
+[ReportManager] AssertEquals PASSED; Expected [200] and Actual [200]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-05-2021 23:39:50.0088 PM
+[ReportManager] API Action [performRequest] successfully performed. With the following test data [Request Type: "POST" | Target Status Code: "200" | Service URL: "https://api.spacex.land/graphql" | Content Type: "application/json" | Response Time: "551ms"]. @08-05-2021 23:39:50.0130 PM
+[ReportManager] Successfully created attachment [API Request - JSON Body] @08-05-2021 23:39:50.0131 PM
+[ReportManager] Successfully created attachment [API Response - JSON Body] @08-05-2021 23:39:50.0132 PM
+[ReportManager] API Action [getResponseJSONValue] successfully performed. With the following test data [data.launchesPast[0].rocket.rocket_name]. @08-05-2021 23:39:50.0181 PM
+[ReportManager] verify that, Falcon 9is equal to: Falcon 9... @08-05-2021 23:39:50.0182 PM
+[ReportManager] AssertEquals PASSED; Expected [Falcon 9] and Actual [Falcon 9]. Comparison Type [EQUALS]. Validation Type [POSITIVE]. @08-05-2021 23:39:50.0182 PM
