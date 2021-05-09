@@ -1,3 +1,3 @@
-Teset SpaceX graphql API Using SHAFT_ENGINE with REST-Assured. <br/>
-Applying object model design pattern and data driven testing. <br/>
-The UtilityClass in utilities package is a base class for graphql API, it can be used for sending any graphql request and validating any graphql response, using soft and hard assertions
+Teset SpaceX Graphql API Using SHAFT_ENGINE with REST-Assured. <br/>
+Applying Object Model design pattern and Data Driven Testing. <br/>
+The UtilityClass in "src/main/java/utilities/shaftEngine" is a Base Class for Graphql API, it can be used for Sending any Graphql Request and Validating any Graphql response, using both soft and hard assertions.
