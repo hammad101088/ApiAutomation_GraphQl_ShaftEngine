@@ -100,7 +100,7 @@ public final class UtilityClass {
 
         Verifications.verifyEquals(expectedResults,
                 RestActions.getResponseJSONValue(response, actualResults_jsonPath),
-                "verify that, "+expectedResults+ "is equal to: " + expectedResults);
+                "verify that, "+actualResults_jsonPath+ " is equal to: " + expectedResults);
     }
 
     
@@ -115,7 +115,7 @@ public final class UtilityClass {
 
         Assertions.assertEquals(expectedResults,
                 RestActions.getResponseJSONValue(response, actualResults_jsonPath),
-                "verify that, "+expectedResults+ "is equal to: " + expectedResults);
+                "verify that, "+actualResults_jsonPath+ " is equal to: " + expectedResults);
     }
 
 }

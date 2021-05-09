@@ -1,3 +1,0 @@
-{
-  "query": "{launchesPast(limit: 10) {rocket {rocket_name}\r\nships {name home_port image}}}"
-}
