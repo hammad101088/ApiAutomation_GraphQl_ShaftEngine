@@ -27,7 +27,7 @@ public class SpacexApiObjectModel {
 	// graphql sample request using mutation with variables
 	/**
 	 * create user
-	 * 
+	 * 	
 	 * @param name
 	 * @param rocket
 	 * @return insert user response
