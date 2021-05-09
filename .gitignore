@@ -2,3 +2,4 @@ target
 .settings
 allure-results
 extent-reports
+/generate_allure_report.bat
